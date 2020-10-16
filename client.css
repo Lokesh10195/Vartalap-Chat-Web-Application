@@ -1,0 +1,93 @@
+body{
+    background-color: lightpink;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+nav img{
+   
+    height: 12vh;
+    
+}
+nav h1{
+    font-size:6vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: green 2px solid;
+    padding: 20px;
+    height: 75vh;
+    background-image: linear-gradient(rgb(255, 123, 0)  ,green);
+    border-radius: 20px;
+}
+
+.chatbox
+{
+    overflow-y: scroll;
+    display :flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+#send{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 5vh;
+    min-width: 100px;
+
+}
+.message{
+    
+    background-color:green;
+    margin-top:20px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 40%;
+    color: white;
+    
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+
+    
+}
+.right{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+#messageInp{
+    height: 3.3vh;
+    width:50vw ;
+    border: orange 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;  
+    padding-left: 10px;
+}
+.btn{
+    height: 4vh;
+    width: 50px;
+    border: orange 2px solid;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+
+}
+
+
